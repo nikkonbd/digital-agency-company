@@ -17,7 +17,7 @@
 .menu{
     padding: 10px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     color: #f52c2c;
 }
 
@@ -40,7 +40,7 @@
     font-size: 85px;
     font-weight: 700;
 }
-.digital{
+.primary{
     color: #f52c2c;
 }
 .header-sub-title{
@@ -54,7 +54,6 @@
     border: none;
     color: #ffffff;
     cursor: pointer;
-    border-radius: 10px;
 }
 .btn-white{
     padding: 15px 30px;
@@ -63,5 +62,22 @@
     border: none;
     color: #f52c2c;
     cursor: pointer;
-    border-radius: 10px;
+}
+
+/* service style */
+
+.service-container{
+    height: 100vh;
+    background-image: url('../assets/image/footer-bg.png'), linear-gradient(rgba(0,0,0,10), rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    color: white;
+    display: flex;
+}
+.service-left section{
+}
+.service-box{
+    display: flex;
+}
+.coding-box{
+    background-color: #ffffff;
 }
